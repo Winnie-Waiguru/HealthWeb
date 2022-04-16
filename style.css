@@ -1,5 +1,7 @@
+
 body{
     background-color: #c9fdfb;
+
 } 
 
     
@@ -21,6 +23,7 @@ nav li a{
     font-size: 19px;
     font-weight: bold;
     text-decoration: none;
+
     color: #777979;
 }
 
