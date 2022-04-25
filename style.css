@@ -1,20 +1,23 @@
 
 body{
     background-color: #c9fdfb;
+    width:100vw;
+    height: 100vh;
+
 
 } 
 
     
 nav{
     text-align:right;
-    margin:5% 0 0 25%;
+    margin:5% 0% 0% 25%;
     width:70%;
 }
 
 
 nav li{
     display: inline;
-    padding: 40px;
+    padding: 4%;
 
     
 }
@@ -60,8 +63,8 @@ nav li a{
 
 .button-text{
     background-color: #35B6C4;
-    width: 140px;
-    height:40px;
+    width: 14%;
+    padding:1%;
     border-radius: 5px;
     margin: 2% 0 0 0;
     color: #c9fdfb;
@@ -73,7 +76,6 @@ nav li a{
 
 .image img{
     border-radius: 50%;
-    margin: 20px;
     width: 30px;
     height: 30px;
     margin: -30% 0 0 18% ;
@@ -123,7 +125,8 @@ nav li a{
 
 .services{
     background: #e6fffe;
-    width:98vw;
+    width:100vw;
+    height: 100vh;
 
 }
 
@@ -134,7 +137,6 @@ nav li a{
 .radiology {
     margin:3% 4%;
      width: 20%;
-     height:60%;
      background-color: #fff;
      padding:25px;
 
@@ -152,9 +154,8 @@ nav li a{
 }
 
 .ambulance{
-    margin:-23% 0 0 31.5%;
+    margin:-22.5% 0 0 31.5%;
     width: 20%;
-    height:60%;
     background-color: #fff;
     padding:39px;
 
@@ -172,7 +173,7 @@ nav li a{
 }
 
 .dental{
-    margin:-20% 0 0 62%;
+    margin:-19.7% 0 0 62%;
      width: 20%;
      background-color: #fff;
      padding:44px;
@@ -194,9 +195,8 @@ nav li a{
 .surgical{
     margin:3% 8.5%;
     width: 19%;
-    height:60%;
     background-color: #fff;
-    padding:29px;
+    padding:29.2px;
 
 }
 
@@ -212,7 +212,6 @@ nav li a{
 .parturition{
     margin:-20% 0 0 35%;
     width: 20%;
-    height:60%;
     background-color: #fff;
     padding:30px;
 
@@ -228,7 +227,7 @@ nav li a{
 }
 
 .pet{
-    margin:-17.5% 0 0 64%;
+    margin:-17% 0 0 64%;
      width: 21%;
      background-color: #fff;
      padding:30px;
@@ -247,6 +246,11 @@ nav li a{
 
 
 /*-------------Doctors-------*/
+
+.doctors{
+    width:100vw;
+    height: 100vh;
+}
 
 .right-doctors{
      
@@ -293,7 +297,8 @@ nav li a{
 .patients{
     background: #eefffe;
     width:100vw;
-    margin:-26% 0 0 0
+    margin:-26% 0 0 0;
+    height:100vh;
     
 
 
@@ -301,9 +306,10 @@ nav li a{
 
 .left-patients h1{
     margin:30% 0 5% 3%;
-    font-size:50px;
+    font-size:30px;
     width:44%;
-    padding:30px;
+    padding:10px;
+
 }
 
 .comment-one{
@@ -312,16 +318,16 @@ nav li a{
 }
 
 .comment-one i{
-    color:#35B6C4;
-   margin: 5% 0 0 7%;
+    color:#acf0f8;
+   margin: 5% 0% 0% 7%;
    font-size: 60px;
 
 }
 
 .comment-one h3{
-    margin:0 0 5% 7%;
+    margin:0% 0% 5% 7%;
     font-size:25px;
-    padding: 10% 0 0 0;
+    padding: 10% 0% 0% 0%;
 }
 
 .comment-one p{
@@ -339,7 +345,7 @@ nav li a{
 }
 
 .client-one{
-    margin:-17% 0 5% 14%;
+    margin:-17% 0% 5% 14%;
 }
 
 .client-one h4{
@@ -349,13 +355,13 @@ nav li a{
 
 .client-one p{
     width:15%;
-    margin:-3% 0 5% 0;
+    margin:-3% 0% 5% 0%;
 }
 
 .rating img{
     width:20%;
     border-radius: 0;
-    margin:-3% 0 5% 7%;
+    margin:-3% 0% 5% 7%;
 }
 
 .client-one .rating-points{
@@ -383,42 +389,42 @@ nav li a{
 
 
 .comment-two i{
-   color:#35B6C4;
-   margin: 5% 0 0 7%;
+   color:#acf0f8;
+   margin: 5% 0% 0% 7%;
    font-size: 60px;
 }
 
 .comment-two h3{
-    margin:0 0 5% 7%;
+    margin:0% 0% 5% 7%;
     font-size:25px;
-    padding: 10% 0 0 0;
+    padding: 10% 0% 0% 0%;
 }
 
 .comment-two p{
     color:#737e7c;
     line-height:20px;
-    margin:10% 0 5% 7%;
+    margin:10% 0% 5% 7%;
 
 }
 
 .comment-two img{
     width:50px;
     border-radius: 90%;
-    margin:10% 0 5% 7%;
+    margin:10% 0% 5% 7%;
 
 }
 
 .client-two{
-    margin:-17% 0 5% 16%;
+    margin:-17% 0% 5% 16%;
 }
 
 .client-two h4{
-    width:25%  
+    width:25%; 
 }
 
 .client-two p{
     width:15%;
-    margin:-3% 0 5% 0;
+    margin:-3% 0% 5% 0%;
 }
 
 .rating-one img{
@@ -431,6 +437,11 @@ nav li a{
 
 /*---------Featured Doctors------------*/
 
+.featured-doctors{
+    width:100vw;
+    height:100vh;
+}
+
 .featured-doctors h1{
     margin:5% 0 5% 3%;
     font-size:40px;
@@ -439,7 +450,7 @@ nav li a{
 }
 
 .featured-one img{
-    background-color:#efe7ea;
+    background-color:#d8d2d5;
     margin:-3% 0 5% 8%;
     border-radius: 4%;
     width: 22%;
@@ -465,7 +476,7 @@ nav li a{
 }
 
 .featured-two img{
-    background-color:#efe7ea;
+    background-color:#c2eef8;
     margin:8% 0 0% 14%; 
     width:29.9%;
     border-radius: 4%;
@@ -512,6 +523,11 @@ nav li a{
 
 /*-------------------Subscribe---------------*/
 
+.subscribe{
+    width:100vw;
+    height: 50vh;
+}
+
 
 .subscribe-box{
     background-color:#91dae3;
@@ -527,14 +543,19 @@ nav li a{
     margin:-9% 0 0 15%;
 }
 
+.onecontainer{
+    display: flex;
+}
 
 
 .subscribe input{
     width:60%;
-    padding:25px;
+    padding:30px;
     border-radius:12px;
     font-size:18px;
-    border: 2px solid #fff;
+    border: #35B6C4;
+    margin:0 0 0 10%;
+    
 }
 
 .subscribe-button{
@@ -542,7 +563,7 @@ nav li a{
     width: 140px;
     height:40px;
     border-radius: 5px;
-    margin: 0 -20% 0 0;
+    margin: 2% -50% 0% -20%;
     color: #c9fdfb;
     font-size:16px;
     border:#35B6C4 2px solid;
@@ -553,6 +574,7 @@ nav li a{
 
  .footer{
     background: #eefffe;
+    width:100vw;
     height:45vh;
      
  }
